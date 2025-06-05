@@ -4,11 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Only add basePath and assetPrefix in production
-  ...(process.env.NODE_ENV === 'production' ? {
-    basePath: '/e-shop_frontend',
-    assetPrefix: '/e-shop_frontend/',
-  } : {})
+  basePath: '/telia_e-shop',
+  assetPrefix: '/telia_e-shop/',
 }
 
 export default nextConfig
