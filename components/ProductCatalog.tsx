@@ -136,16 +136,6 @@ const ProductCatalog: React.FC<ProductCatalogProps> = ({ products }) => {
       console.log("Order submitted for product:", selectedProduct?.name);
       console.log("Form data:", formData);
 
-      // Here you would typically send the order data to your backend
-      // For example:
-      // const response = await fetch('/api/submit-order', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ product: selectedProduct, formData })
-      // });
-      // if (!response.ok) throw new Error('Failed to submit order');
-      // throw new Error("Simulated backend error");
-      // If the submission is successful:
       setSelectedProduct(null);
       return true;
     } catch (error) {
@@ -228,5 +218,7 @@ const ProductCatalog: React.FC<ProductCatalogProps> = ({ products }) => {
     </div>
   );
 };
+
+ProductCatalog.displayName = 'ProductCatalog';
 
 export default ProductCatalog;

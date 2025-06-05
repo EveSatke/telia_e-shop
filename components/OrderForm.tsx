@@ -132,11 +132,11 @@ const OrderForm: React.FC<OrderFormProps> = ({
                     height={24}
                   />
                   <p className="text-green-success font-medium text-base ml-2">
-                    We're received your order
+                    We&apos;re received your order
                   </p>
                 </div>
                 <p className="mb-5 text-black-form text-base ">
-                  You'll receive a call in the next 24 hours and finalise your
+                  You&apos;ll receive a call in the next 24 hours and finalise your
                   order with one of our agents.
                 </p>
               </div>
@@ -160,11 +160,11 @@ const OrderForm: React.FC<OrderFormProps> = ({
                     height={24}
                   />
                   <p className="text-red-error font-medium text-base ml-2">
-                    Your order hasn't been placed
+                    Your order hasn&apos;t been placed
                   </p>
                 </div>
                 <p className="mb-5 text-black-form text-base ">
-                  There's been a technical error. Unfortunately, we haven't
+                  There&apos;s been a technical error. Unfortunately, we haven&apos;t
                   received your order. Close this window and try placing your
                   order again.
                 </p>
@@ -189,7 +189,7 @@ const OrderForm: React.FC<OrderFormProps> = ({
               {productAvailable ? (
                 <>
                   <p className="mb-5 text-black-form text-base">
-                    Please leave your contact details below. We'll contact you
+                    Please leave your contact details below. We&apos;ll contact you
                     very shortly to finalise your order.
                   </p>
                   <form
@@ -327,7 +327,7 @@ const OrderForm: React.FC<OrderFormProps> = ({
                       </p>
                     </div>
                     <p className="mb-5 text-black-form text-base ">
-                      We're sorry, but this product is currently out of stock.
+                      We&apos;re sorry, but this product is currently out of stock.
                       Please check back later or contact our support team for
                       more information.
                     </p>

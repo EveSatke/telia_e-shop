@@ -4,8 +4,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/e-shop_frontend',
-  assetPrefix: '/e-shop_frontend/',
+  // Only add basePath and assetPrefix in production
+  ...(process.env.NODE_ENV === 'production' ? {
+    basePath: '/e-shop_frontend',
+    assetPrefix: '/e-shop_frontend/',
+  } : {})
 }
 
 export default nextConfig

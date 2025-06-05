@@ -31,6 +31,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onOrderNow }) => {
             fill
             sizes="131px"
             style={{ objectFit: "cover" }}
+            priority={true}
           />
         </div>
         <div>

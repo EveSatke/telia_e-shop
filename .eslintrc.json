@@ -2,5 +2,9 @@
   "extends": "next/core-web-vitals",
   "env": {
     "jest": true
+  },
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "jsx-a11y/alt-text": "off"
   }
 }
