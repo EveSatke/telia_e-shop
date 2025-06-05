@@ -1,10 +1,10 @@
 # E-Shop Frontend
 
-This is a modern e-commerce frontend application built with [Next.js](https://nextjs.org/){:target="_blank"} and TypeScript. The project is bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app){:target="_blank"}.
+This is a modern e-commerce frontend application built with [Next.js](https://nextjs.org/) and TypeScript. The project is bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## About the Project
 
-This project is part of the [Women Go Tech](https://www.womengotech.com){:target="_blank"} program, specifically developed as a portfolio project for Telia company. Women Go Tech is an initiative that helps women start and accelerate their careers in IT and engineering, with a community of over 21,000 members and partnerships with 50+ companies.
+This project is part of the [Women Go Tech](https://www.womengotech.com) program, specifically developed as a portfolio project for Telia company. Women Go Tech is an initiative that helps women start and accelerate their careers in IT and engineering, with a community of over 21,000 members and partnerships with 50+ companies.
 
 <div align="center">
   <img src="/public/images/e-shop_screenshot.png" alt="E-Shop Screenshot" width="800"/>
@@ -56,13 +56,13 @@ npm run dev
 
 To learn more about the technologies and programs used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs){:target="_blank"}
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/){:target="_blank"}
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs){:target="_blank"}
-- [Jest Documentation](https://jestjs.io/docs/getting-started){:target="_blank"}
-- [Women Go Tech](https://www.womengotech.com){:target="_blank"}
+- [Next.js Documentation](https://nextjs.org/docs)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Jest Documentation](https://jestjs.io/docs/getting-started)
+- [Women Go Tech](https://www.womengotech.com)
 
 ## License
 
-This project is part of the Women Go Tech program. See the [Women Go Tech](https://www.womengotech.com){:target="_blank"} website for more information.
+This project is part of the Women Go Tech program. See the [Women Go Tech](https://www.womengotech.com) website for more information.
 
