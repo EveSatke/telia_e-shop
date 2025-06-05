@@ -3,55 +3,69 @@ import "@testing-library/jest-dom";
 import ProductCatalog from "./ProductCatalog";
 import { Product } from "../types/index";
 
-// Mock child components
-jest.mock("./FilterSidebar", () => () => <div data-testid="filter-sidebar" />);
-jest.mock("./ProductList", () => ({ products }: { products: Product[] }) => (
-  <div data-testid="product-list">
-    {products.map((p) => (
-      <div key={p.id}>{p.name}</div>
-    ))}
-  </div>
-));
-jest.mock(
-  "./MobileFilterButton",
-  () =>
-    ({ onClick }: { onClick: () => void }) =>
-      (
-        <button data-testid="mobile-filter-button" onClick={onClick}>
-          Filter
-        </button>
-      )
-);
-jest.mock(
-  "./MobileSortButton",
-  () =>
-    ({ onSortChange }: { onSortChange: (value: string) => void }) =>
-      (
-        <select
-          data-testid="mobile-sort-button"
-          onChange={(e) => onSortChange(e.target.value)}
-        >
-          <option value="most_popular">Most Popular</option>
-          <option value="price_asc">Price: Low to High</option>
-          <option value="price_desc">Price: High to Low</option>
-        </select>
-      )
-);
-jest.mock(
-  "./MobileFilterModal",
-  () =>
-    ({ onClose }: { onClose: () => void }) =>
-      (
-        <div data-testid="mobile-filter-modal">
-          <button onClick={onClose}>Close</button>
-        </div>
-      )
-);
-jest.mock("./OrderForm", () => ({ onClose }: { onClose: () => void }) => (
-  <div data-testid="order-form">
-    <button onClick={onClose}>Close</button>
-  </div>
-));
+// First, define the mock components
+jest.mock("./FilterSidebar", () => {
+  return function MockFilterSidebar() {
+    return <div data-testid="filter-sidebar" />;
+  };
+});
+
+jest.mock("./ProductList", () => {
+  return function MockProductList({ products }: { products: Product[] }) {
+    return (
+      <div data-testid="product-list">
+        {products.map((p) => (
+          <div key={p.id}>{p.name}</div>
+        ))}
+      </div>
+    );
+  };
+});
+
+jest.mock("./MobileFilterButton", () => {
+  return function MockMobileFilterButton({ onClick }: { onClick: () => void }) {
+    return (
+      <button data-testid="mobile-filter-button" onClick={onClick}>
+        Filter
+      </button>
+    );
+  };
+});
+
+jest.mock("./MobileSortButton", () => {
+  return function MockMobileSortButton({ onSortChange }: { onSortChange: (value: string) => void }) {
+    return (
+      <select
+        data-testid="mobile-sort-button"
+        onChange={(e) => onSortChange(e.target.value)}
+      >
+        <option value="most_popular">Most Popular</option>
+        <option value="price_asc">Price: Low to High</option>
+        <option value="price_desc">Price: High to Low</option>
+      </select>
+    );
+  };
+});
+
+jest.mock("./MobileFilterModal", () => {
+  return function MockMobileFilterModal({ onClose }: { onClose: () => void }) {
+    return (
+      <div data-testid="mobile-filter-modal">
+        <button onClick={onClose}>Close</button>
+      </div>
+    );
+  };
+});
+
+jest.mock("./OrderForm", () => {
+  return function MockOrderForm({ onClose }: { onClose: () => void }) {
+    return (
+      <div data-testid="order-form">
+        <button onClick={onClose}>Close</button>
+      </div>
+    );
+  };
+});
 
 const mockProducts: Product[] = [
   {

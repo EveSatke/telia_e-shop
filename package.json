@@ -10,7 +10,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "predeploy": "npm run build",
-    "deploy": "next export && touch out/.nojekyll && gh-pages -d out -t true"
+    "deploy": "touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "next": "14.2.5",
