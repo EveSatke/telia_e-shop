@@ -1,10 +1,16 @@
 # E-Shop Frontend
 
-This is a modern e-commerce frontend application built with [Next.js](https://nextjs.org/){:target="_blank" rel="noopener noreferrer"} and TypeScript. The project is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app){:target="_blank" rel="noopener noreferrer"}.
+This is a modern e-commerce frontend application built with <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">Next.js</a> and TypeScript. The project is bootstrapped with <a href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app" target="_blank" rel="noopener noreferrer">create-next-app</a>.
 
 ## About the Project
 
-This project is part of the [Women Go Tech](https://www.womengotech.com){:target="_blank" rel="noopener noreferrer"} program, specifically developed as a portfolio project for Telia company. Women Go Tech is an initiative that helps women start and accelerate their careers in IT and engineering, with a community of over 21,000 members and partnerships with 50+ companies.
+This project is part of the <a href="https://www.womengotech.com" target="_blank" rel="noopener noreferrer">Women Go Tech</a> program, specifically developed as a portfolio project for Telia company. Women Go Tech is an initiative that helps women start and accelerate their careers in IT and engineering, with a community of over 21,000 members and partnerships with 50+ companies.
+
+<div align="center">
+  <img src="/public/images/e-shop_screenshot.png" alt="E-Shop Screenshot" width="800"/>
+  <br>
+  <em>E-Shop Frontend Application - Main Page</em>
+</div>
 
 ## Features
 
@@ -23,8 +29,8 @@ This project is part of the [Women Go Tech](https://www.womengotech.com){:target
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/e-shop_frontend.git
-cd e-shop_frontend
+git clone https://github.com/EveSatke/telia_e-shop.git
+cd telia_e-shop
 ```
 
 2. Install dependencies:
@@ -46,19 +52,17 @@ npm run dev
 - `npm test` - Runs Jest tests
 - `npm run test:watch` - Runs Jest tests in watch mode
 
-
 ## Learn More
 
 To learn more about the technologies and programs used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs){:target="_blank" rel="noopener noreferrer"}
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/){:target="_blank" rel="noopener noreferrer"}
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs){:target="_blank" rel="noopener noreferrer"}
-- [Jest Documentation](https://jestjs.io/docs/getting-started){:target="_blank" rel="noopener noreferrer"}
-- [Women Go Tech](https://www.womengotech.com){:target="_blank" rel="noopener noreferrer"}
-
+- <a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer">Next.js Documentation</a>
+- <a href="https://www.typescriptlang.org/docs/" target="_blank" rel="noopener noreferrer">TypeScript Documentation</a>
+- <a href="https://tailwindcss.com/docs" target="_blank" rel="noopener noreferrer">Tailwind CSS Documentation</a>
+- <a href="https://jestjs.io/docs/getting-started" target="_blank" rel="noopener noreferrer">Jest Documentation</a>
+- <a href="https://www.womengotech.com" target="_blank" rel="noopener noreferrer">Women Go Tech</a>
 
 ## License
 
-This project is part of the Women Go Tech program. See the [Women Go Tech](https://www.womengotech.com){:target="_blank" rel="noopener noreferrer"} website for more information.
+This project is part of the Women Go Tech program. See the <a href="https://www.womengotech.com" target="_blank" rel="noopener noreferrer">Women Go Tech</a> website for more information.
 
