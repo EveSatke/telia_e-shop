@@ -6,6 +6,10 @@ const nextConfig = {
   },
   basePath: '/telia_e-shop',
   assetPrefix: '/telia_e-shop/',
+  trailingSlash: true,
+  experimental: {
+    optimizeCss: true,
+  }
 }
 
 export default nextConfig

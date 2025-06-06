@@ -38,7 +38,7 @@ const MobileFilterButton: React.FC<MobileFilterButtonProps> = ({
       }`}
     >
       <Image
-        src="/images/filter.svg"
+        src="images/filter.svg"
         alt=""
         width={16}
         height={16}

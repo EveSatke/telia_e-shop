@@ -5,7 +5,7 @@ export default function HeroBanner() {
     <section aria-labelledby="hero-title">
       <Image
         className="w-full h-[300px] md:h-[414px] lg:h-[400px] object-cover"
-        src="/images/hero.jpg"
+        src="images/hero.jpg"
         width={1440}
         height={400}
         alt="Various mobile phones and accessories displayed on a table"

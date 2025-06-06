@@ -101,7 +101,7 @@ const OrderForm: React.FC<OrderFormProps> = ({
       <div className=" bg-white rounded-lg overflow-hidden w-full lg:max-w-4xl lg:flex lg:h-[640px] lg:relative">
         <div className="hidden lg:block w-1/3 relative">
           <Image
-            src="/images/order-form.png"
+            src="images/order-form.png"
             alt="Abstract background"
             layout="fill"
             objectFit="cover"
@@ -113,7 +113,7 @@ const OrderForm: React.FC<OrderFormProps> = ({
             className="absolute top-6 right-6 lg:top-4 lg:right-4 hover:text-gray-700"
             aria-label="Close"
           >
-            <Image src="/images/close.svg" alt="" width={32} height={32} />
+            <Image src="images/close.svg" alt="" width={32} height={32} />
           </button>
           <h2
             id="order-form-title"
@@ -126,7 +126,7 @@ const OrderForm: React.FC<OrderFormProps> = ({
               <div className="border-2 border-l-[6px] rounded-md border-green-table mt-4 py-4 px-5">
                 <div className="flex flex-row justify-start pb-3">
                   <Image
-                    src="/images/success.svg"
+                    src="images/success.svg"
                     alt="Success"
                     width={24}
                     height={24}
@@ -154,7 +154,7 @@ const OrderForm: React.FC<OrderFormProps> = ({
               <div className="border-2 border-l-[6px] rounded-md border-red-table mt-4 py-4 px-5">
                 <div className="flex flex-row justify-start pb-3">
                   <Image
-                    src="/images/form-error.svg"
+                    src="images/form-error.svg"
                     alt="Error"
                     width={24}
                     height={24}
@@ -223,7 +223,7 @@ const OrderForm: React.FC<OrderFormProps> = ({
                       {errors.name && (
                         <div className="flex mt-1" id="name-error">
                           <Image
-                            src="/images/form-error.svg"
+                            src="images/form-error.svg"
                             alt=""
                             width={16}
                             height={16}
@@ -257,7 +257,7 @@ const OrderForm: React.FC<OrderFormProps> = ({
                       {errors.email && (
                         <div className="flex mt-1">
                           <Image
-                            src="/images/form-error.svg"
+                            src="images/form-error.svg"
                             alt="Error"
                             width={16}
                             height={16}
@@ -291,7 +291,7 @@ const OrderForm: React.FC<OrderFormProps> = ({
                       {errors.phone && (
                         <div className="flex mt-1">
                           <Image
-                            src="/images/form-error.svg"
+                            src="images/form-error.svg"
                             alt="Error"
                             width={16}
                             height={16}
@@ -317,7 +317,7 @@ const OrderForm: React.FC<OrderFormProps> = ({
                   <div className="border-2 border-l-[6px] rounded-md border-red-table mt-4 py-4 px-5">
                     <div className="flex flex-row justify-start pb-3">
                       <Image
-                        src="/images/form-error.svg"
+                        src="images/form-error.svg"
                         alt="Error"
                         width={24}
                         height={24}
