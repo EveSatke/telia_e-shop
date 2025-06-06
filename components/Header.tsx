@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getImagePath } from '@/utils/paths';
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <div className="wrapper flex items-center justify-between">
         <Link href="/" aria-label="e-shop home">
           <Image
-            src="images/logo.png"
+            src={getImagePath('images/logo.png')}
             width={98}
             height={32}
             alt="e-shop logo"

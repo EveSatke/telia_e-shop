@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Product } from "../types/index";
+import { getImagePath } from '@/utils/paths';
 
 interface ProductCardProps {
   product: Product;
@@ -68,7 +69,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onOrderNow }) => {
           >
             Order now
             <Image
-              src="images/arrow-right.svg"
+              src={getImagePath('images/arrow-right.svg')}
               alt=""
               width={16}
               height={16}
