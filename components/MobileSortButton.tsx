@@ -31,7 +31,7 @@ const MobileSortButton: React.FC<MobileSortButtonProps> = ({
         }`}
       >
         <Image
-          src="images/sort.svg"
+          src="/images/sort.svg"
           alt=""
           width={16}
           height={16}

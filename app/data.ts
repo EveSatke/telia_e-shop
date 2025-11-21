@@ -7,7 +7,7 @@ export const products: Product[] = [
         "name": "iPhone 15",
         "brand": "apple",
         "price": 30,
-        "image": "images/products/iphone15.png",
+        "image": "/images/products/iphone15.png",
         "colorOptions": [
           { "color": "black", "hex": "#000000" },
           { "color": "yellow", "hex": "#F0E68C" },
@@ -24,7 +24,7 @@ export const products: Product[] = [
         "name": "Galaxy S23 FE",
         "brand": "samsung",
         "price": 23,
-        "image": "images/products/galaxy-s23-fe.png",
+        "image": "/images/products/galaxy-s23-fe.png",
         "colorOptions": [
           { "color": "black", "hex": "#000000" },
           { "color": "yellow", "hex": "#F0E68C" },
@@ -41,7 +41,7 @@ export const products: Product[] = [
         "name": "Redmi Note 13",
         "brand": "xiaomi",
         "price": 8,
-        "image": "images/products/redmi-note-13.png",
+        "image": "/images/products/redmi-note-13.png",
         "colorOptions": [
           { "color": "black", "hex": "#000000" },
           { "color": "yellow", "hex": "#F0E68C" },
@@ -58,7 +58,7 @@ export const products: Product[] = [
         "name": "Xperia 10 V",
         "brand": "sony",
         "price": 9,
-        "image": "images/products/xperia-10-v.png",
+        "image": "/images/products/xperia-10-v.png",
         "colorOptions": [
           { "color": "black", "hex": "#000000" },
           { "color": "yellow", "hex": "#F0E68C" },
@@ -75,7 +75,7 @@ export const products: Product[] = [
         "name": "Nord 3",
         "brand": "oneplus",
         "price": 15,
-        "image": "images/products/oneplus-nord-3.png",
+        "image": "/images/products/oneplus-nord-3.png",
         "colorOptions": [
           { "color": "black", "hex": "#000000" },
           { "color": "yellow", "hex": "#F0E68C" },
@@ -92,7 +92,7 @@ export const products: Product[] = [
         "name": "iPhone 15",
         "brand": "apple",
         "price": 30,
-        "image": "images/products/iphone15.png",
+        "image": "/images/products/iphone15.png",
         "colorOptions": [
           { "color": "black", "hex": "#000000" },
           { "color": "yellow", "hex": "#F0E68C" },
@@ -109,7 +109,7 @@ export const products: Product[] = [
         "name": "Galaxy S23 FE",
         "brand": "samsung",
         "price": 1500,
-        "image": "images/products/galaxy-s23-fe.png",
+        "image": "/images/products/galaxy-s23-fe.png",
         "colorOptions": [
           { "color": "black", "hex": "#000000" },
           { "color": "yellow", "hex": "#F0E68C" },
@@ -126,7 +126,7 @@ export const products: Product[] = [
         "name": "Redmi Note 13",
         "brand": "xiaomi",
         "price": 1001,
-        "image": "images/products/redmi-note-13.png",
+        "image": "/images/products/redmi-note-13.png",
         "colorOptions": [
           { "color": "black", "hex": "#000000" },
           { "color": "yellow", "hex": "#F0E68C" },
@@ -143,7 +143,7 @@ export const products: Product[] = [
         "name": "Xperia 10 V",
         "brand": "sony",
         "price": 600,
-        "image": "images/products/xperia-10-v.png",
+        "image": "/images/products/xperia-10-v.png",
         "colorOptions": [
           { "color": "black", "hex": "#000000" },
           { "color": "yellow", "hex": "#F0E68C" },
@@ -160,7 +160,7 @@ export const products: Product[] = [
         "name": "Nord 3",
         "brand": "oneplus",
         "price": 200,
-        "image": "images/products/oneplus-nord-3.png",
+        "image": "/images/products/oneplus-nord-3.png",
         "colorOptions": [
           { "color": "black", "hex": "#000000" },
           { "color": "yellow", "hex": "#F0E68C" },
